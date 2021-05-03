@@ -1,10 +1,15 @@
-
-function App() {
-  return (
-    <div>
-      <h1>Burger App</h1>
-    </div>
-  );
+import React, { Component } from "react";
+import Layout from './components/Layout/Layout'
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Layout>
+          <p>Burger App</p>
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;
